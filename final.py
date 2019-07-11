@@ -26,7 +26,7 @@ for name,address in students.items():
 
 x = collection.insert_one(students)
 
-print(students)abh
+print(students)
 
 dblist = client.list_database_names()
 if input('Enter database name :.') in dblist:
